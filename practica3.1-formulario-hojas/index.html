@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPRA DE HOJA</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <form class="content-form" id="frmHojas">
+        <h1>VENTAS DE HOJAS</h1>
+
+        <select id="cmbtipoHoja" class="button">
+            <br>
+            <option value="no">--TIPO DE HOJA--</option>
+            <option vale="hielo">HIELO</option>
+            <option value="vigueta">VIGUETA</option>
+            <option value="armazones">ARMAZONES</option>
+        </select>
+        <br>
+
+        <input class="button" type="number" id="txtCantidad" placeholder="CANTIDAD DE HOJA">
+        <br>
+        <input class="button" type="number" id="txtPrecio" placeholder="COSTO POR HOJA">
+        <br>
+
+        <select id="cmbtipoPago" class="button">
+                <option value="no">--TIPO DE PAGO--</option>
+                <option value="contado">CONTADO</option>
+                <option value="credito">CREDITO</option>
+        </select>
+       
+        <button class="button" id="botones" type="submit">CALCULAR</button>
+        <h4 id="Resultado"></h4>
+   
+     </form>
+     <script src="js/funcion.js"></script>
+</body>
+
+</html>
