@@ -1,0 +1,81 @@
+/* selector universal: todas las etiquetas */
+
+* {
+    margin: 0;
+    /*margin-to: 0;
+    margin-botton: 0;
+    margin-left: 0;
+    margin-right: 0;*/
+
+    padding: 0;
+    /*todo*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Selector de etiqueta */
+
+body {
+    background: #1B5E20;
+}
+
+h3, h4 {
+    color: #E8F5E9;
+    /*color de fuente en el texto*/
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+
+
+}
+
+h5 {
+    color: ghostwhite;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+}
+
+/*Selector de Clase*/
+.content-form {
+    /*va a guardar controles*/
+    width: 400px;
+    /*TAMAÑO DE ANCHO*/
+    height: 480;
+
+    background: #43A047;
+    margin: auto;
+    margin-top: 50px;
+    border: 5px solid #C8E6C9;
+    /*grosor-estilo y color de borde*/
+    border-radius: 20px;
+    /*redondea esquinas del borde*/
+    padding: 30px; /*separar borde*/
+    box-shadow: 10px 15px 40px #E8F5E9;
+
+}
+
+.controles{
+    width: 100%; /**/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 3px solid lightgoldenrodyellow;
+   border-radius: 20px;
+
+}
+/*selector de id*/
+/*ACCEDES POR MEDIO DEL GATO*/
+#botones{
+    background:  #81C784;
+
+    
+}
+/*SELECTOR DE PSEUDOCLASE*/
+#botones:hover{
+    background: #B9F6CA;
+    cursor: pointer;
+    color: #1B5E20;
+    padding: 8px;
+
+}
