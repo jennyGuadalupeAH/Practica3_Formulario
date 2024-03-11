@@ -23,6 +23,11 @@ Aquel que se puede interactuar con el usuario recibiendo información pero por e
      Ademas, como vas er su tipo de pagado ya que si compra ah credito le daran un descuento de 0.7 y al contado no se      aplicara
   Todo estara en javascript que recibira el dato para manipular y generar un evento del formulario por medio del submit.UNa vez que reciba los datos, todo nuestras operaciones seran recibidas por un if y else
 </div>
-
+<div>
+<h2>Practica3.2_Formulario_de_Hotel</h2>
+  Hospedaje 
+  Calcular el precio de hospedaje del cliente, sabiendo cuanto dias se va a quedar(5 a 10 un descuento con 0.1, 10 a 15 descuento 0.15, 15 en adelante un descuento de 0.2), precio por dia, escogiendo tipo de pago si es con tarjeta vendra con un descuento del 1.03  
+     
+</div>
 
 ## cambios se realizaran prontamente para un buen entendimiento
