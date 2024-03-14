@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-radius: 40px;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #004D40,  #004D40, #004D40, #004D40, #004D40, #26A69A, #80CBC4,#80CBC4, #80CBC4);
+}
+
+.content-form {
+    width: 420px;
+    color: #fff;
+    backdrop-filter: blur(55px);
+    border: 2px solid #1DE9B6;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+    text-align: center;
+}
+.content-form2 {
+    width: 420px;
+    color: #fff;
+    backdrop-filter: blur(55px);
+    border: 2px solid #004D40 ;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#tipoClavos {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    margin: 20px 0;
+    border: 2px solid #fff;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#txtClavos {
+    width: 95%;
+    height: 30px;
+    background: transparent;
+    margin: 20px 0;
+    border: 2px solid #fff;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+#txtButton {
+    width: 100%;
+    height: 45px;
+    background: #B9F6CA;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #1B5E20;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+#txtButton:hover {
+    background: #5BC89E;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #004D40;
+}
+
+
+
+/* letras */
+
+
+.contenedor {
+
+    height: 40px;
+    display: flex;
+    line-height: 40px;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+ul,
+h1 {
+    margin: 0;
+    padding: 0;
+
+
+
+
+}
+
+
+
+ul {
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    animation: movimiento 10s infinite;
+
+
+}
+
+@keyframes movimiento {
+    0% {
+        margin-top: 0;
+    }
+
+    20% {
+        margin-top: 0%;
+    }
+
+    25% {
+        margin-top: -40px;
+    }
+
+    50% {
+        margin-top: -40px;
+    }
+
+    55% {
+        margin-top: -80px;
+    }
+
+    80% {
+        margin-top: -80px;
+    }
+
+    85% {
+        margin-top: -40px;
+    }
+
+    95% {
+        margin-top: -40px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+
+}
+
+/* carro */
