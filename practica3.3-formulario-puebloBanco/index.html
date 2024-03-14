@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Select Personalizado</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/diseño.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <form class="contenedor1">
+            <img src="img/debito.png" alt="">
+            <h1>BANCO NACIONAL MEXICANO</h1>
+
+            <ul>
+                <li>Tu mejor opción</li>
+                <li>Te lo mereces</li>
+                <li>Estamos contigo</li>
+            </ul>
+        </form>
+        <form action="" id="frmTarjeta">
+            <div class="selectbox">
+                <div class="select" id="select">
+                    <div class="contenido-select">
+                        <h1 class="titulo" id="cmdTarjeta" value="tarjeta">Selecciona tarjeta</h1>
+                        <p class="descripcion">Hoy, mañana, siempre contigo</p>
+                    </div>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+
+                <div class="opciones" id="opciones">
+                    <a href="#" class="opcion">
+                        <div class="contenido-opcion">
+                            <img src="img/tarjetatipo1.png" alt="">
+                            <div class="textos">
+                                <h1 class="titulo" id="cmdTarjeta" value="tarjetatipo1">tarjetatipo1</h1>
+                                <p class="descripcion">aumento del 25%.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="opcion" value="tarjetatipo2">
+                        <div class="contenido-opcion">
+                            <img src="img/tarjetatipo2.png" alt="">
+                            <div class="textos">
+                                <h1 class="titulo" id="cmdTarjeta" value="tarjetatipo2">tarjetatipo2</h1>
+                                <p class="descripcion">aumento del 35%.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="opcion" value="tarjetatipo3">
+                        <div class="contenido-opcion">
+                            <img src="img/tarjetatipo3.png" alt="">
+                            <div class="textos">
+                                <h1 class="titulo" id="cmdTarjeta" value="tarjetatipo3">tarjetatipo3</h1>
+                                <p class="descripcion">aumento del 40%.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="opcion">
+                        <div class="contenido-opcion">
+                            <img src="img/tarjetaOtros.png" alt="">
+                            <div class="textos">
+                                <h1 class="titulo" id="cmdTarjeta" value="otroTipo">Otro Tipos</h1>
+                                <p class="descripcion">aumento del 50%</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </form>
+        <form class="select2" id="frmCosto">
+            <br>
+
+            <input class="button" id="txtCantidad" type="number" placeholder="PRESTAMO">
+            <br>
+            <button class="button" type="submit">Calcular</button>
+            <h3 id="Resultado"></h3>
+        </form>
+
+    </div>
+
+
+
+    <script src="js/click.js"></script>
+    <script src="js/funcion.js"></script>
+</body>
+
+</html>
