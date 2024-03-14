@@ -30,4 +30,10 @@ Aquel que se puede interactuar con el usuario recibiendo información pero por e
      
 </div>
 
+<h2>Practica3.2_Formulario_de_puebloBanco</h2>
+  Banco
+Es mas interactivo y llamativo al usuario este problema. En el Banco tiene 4 tipos de tarjeta para prestamo con diferente funcion siendo la primera tipo 1 con un aumento del 25% para pagar tipo2 35½, tipo3 con un 40½ y otros del 50½, siendo asi que al seleccionar y colocar la cantidad de dinero deseado. Una vez hecho  nos lanzara la respuesta el resultado de la cantidad que se deberia pagar
+     
+</div>
+
 ## cambios se realizaran prontamente para un buen entendimiento
